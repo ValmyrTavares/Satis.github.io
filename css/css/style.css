@@ -1,0 +1,617 @@
+@charset "UTF-8";
+/*
+**********************************************************************
+            HEADER COM LOGOTIPO E BOTÕES
+******************************************************************
+ */
+header {
+  width: 70%;
+  background-image: linear-gradient(to right, #F2F1F2, #B7BABD);
+  height: 150px;
+  margin: 0 15%;
+  display: flex; }
+  header .header-logo {
+    width: 50%;
+    height: 100%; }
+    header .header-logo img {
+      width: 52%;
+      position: relative;
+      top: 50px;
+      left: 40px; }
+  header .header-buttons {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    header .header-buttons button {
+      background: #1863AD;
+      width: 35%;
+      padding: .5rem .1rem;
+      border-radius: 15px;
+      border: none;
+      color: white; }
+
+/*
+**********************************************************************
+            GESTORA DE PARTICIPAÇÕES PRIMEIRO BLOCO
+******************************************************************
+ */
+main {
+  background-image: url("../../images/1.jpg");
+  background-position: center center;
+  background-size: 100% 100%;
+  width: 70%;
+  margin: 0 15%;
+  height: 450px; }
+  main div {
+    width: 39%;
+    height: 170px;
+    background: #1A64AE;
+    padding: 9px 18px;
+    position: relative;
+    top: 14%;
+    left: 57%;
+    min-width: 241px;
+    box-sizing: border-box; }
+    main div h2 {
+      color: white;
+      font-family: arial;
+      margin: 0; }
+    main div p {
+      color: white;
+      font-size: 16px; }
+
+/*
+**********************************************************************
+    TERCIRO BLOCO SATIS CORPORATE DUAS COLUNAS IMAGEM E TEXTO
+******************************************************************
+ */
+.about-us {
+  background-image: url("../../images/2_b.jpg");
+  background-position: center center;
+  background-size: 100% 100%;
+  height: 350px;
+  width: 70%;
+  margin: 0 15%; }
+  .about-us div {
+    padding: 12px;
+    width: 45%;
+    height: 90%;
+    float: right;
+    margin-right: 20px; }
+  .about-us h2 {
+    font-size: 20px;
+    color: #2369B3;
+    font-family: arial;
+    margin: 0; }
+  .about-us p {
+    color: #2369B3;
+    font-family: arial;
+    font-size: 14px;
+    line-height: 1.6; }
+
+.intermezzo {
+  background-image: url("../../images/3.jpg");
+  background-position: center center;
+  background-size: 100% 100%;
+  height: 150px;
+  width: 70%;
+  margin: 0 15%; }
+  .intermezzo h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 70%;
+    left: 20%; }
+
+/*
+**********************************************************************
+          PARCEIROS E LINKS
+******************************************************************
+ */
+.partners {
+  background: #F2F1F2;
+  height: 100%;
+  width: 70%;
+  margin: 0 15%;
+  padding: 10px 10px;
+  box-sizing: border-box; }
+  .partners p {
+    color: #2369B3;
+    font-family: arial;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 10px 10px;
+    text-align: left; }
+  .partners .link-partners {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+    .partners .link-partners span {
+      width: 30%;
+      background-image: linear-gradient(to right, #F2F1F2, #B7BABD);
+      min-width: 300px;
+      margin: 10px auto; }
+      .partners .link-partners span img {
+        width: 50%;
+        position: relative;
+        top: 0;
+        left: 20%; }
+
+/*
+**********************************************************************
+        NOSSA VISÃO, NOSSA MISSÃO, NOSSOS VALORES
+******************************************************************
+ */
+.overture-sale {
+  background: white;
+  height: 450px;
+  width: 70%;
+  margin: 0 15%;
+  padding: 10px 10px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around; }
+  .overture-sale div {
+    width: 30%;
+    cursor: pointer; }
+    .overture-sale div img {
+      width: 90%;
+      margin-top: 70px; }
+    .overture-sale div h3 {
+      font-family: Arial, Helvetica, sans-serif;
+      color: rgba(71, 71, 74, 0.5);
+      text-align: center;
+      font-size: 16px; }
+    .overture-sale div p {
+      display: none; }
+    .overture-sale div ul {
+      display: none; }
+
+/*
+**********************************************************************
+                    FOOTER
+******************************************************************
+ */
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: #1A64AE;
+  height: 400px;
+  width: 70%;
+  margin: 0 15%;
+  padding: 10px 10px;
+  box-sizing: border-box; }
+  footer div {
+    padding: 20px; }
+    footer div img {
+      width: 50%; }
+    footer div p {
+      color: #2369B3;
+      font-family: arial;
+      font-size: 16px;
+      line-height: 1.6;
+      color: white; }
+  footer .footer-right img {
+    width: 100%;
+    position: relative;
+    top: 100px; }
+  footer .footer-right h3 {
+    position: relative;
+    top: 18%;
+    left: 0%;
+    color: white;
+    font-family: arial;
+    background: #3a73ad;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px; }
+  footer .footer-left img {
+    margin: 30px 0; }
+  footer .footer-left p {
+    width: 80%; }
+
+/*
+**********************************************************************
+           MODAIS
+******************************************************************
+ */
+.wrapper-visao {
+  width: 450px;
+  height: 50%;
+  position: fixed;
+  top: 20%;
+  left: 34%;
+  background: linear-gradient(to right, #838b92, #1A64AE);
+  padding: 1rem 1rem;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: none; }
+  .wrapper-visao button {
+    position: absolute;
+    top: -2%;
+    left: 92%;
+    color: white;
+    font-size: 40px;
+    background: none;
+    border: none;
+    cursor: pointer; }
+  .wrapper-visao img {
+    width: 150%; }
+  .wrapper-visao p {
+    color: white;
+    line-height: 1.4;
+    position: absolute;
+    margin: 4% 3%;
+    top: 5%;
+    left: 4%;
+    width: 84%; }
+  .wrapper-visao.show-modal {
+    display: block !important; }
+
+.wrapper-missao {
+  width: 450px;
+  height: 62%;
+  position: fixed;
+  top: 20%;
+  left: 34%;
+  background: linear-gradient(to right, #838b92, #1A64AE);
+  padding: 1rem 1rem;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: none; }
+  .wrapper-missao button {
+    position: absolute;
+    top: -2%;
+    left: 92%;
+    color: white;
+    font-size: 40px;
+    background: none;
+    border: none;
+    cursor: pointer; }
+  .wrapper-missao img {
+    width: 245%; }
+  .wrapper-missao ul li {
+    color: white;
+    line-height: 1.4;
+    position: relative;
+    margin: 4% 3%;
+    top: -539px;
+    left: -9%;
+    width: 84%;
+    z-index: 100;
+    list-style: none;
+    width: 110%; }
+  .wrapper-missao.show-modal {
+    display: block !important; }
+
+.wrapper-valores {
+  width: 450px;
+  height: 49%;
+  position: fixed;
+  top: 20%;
+  left: 34%;
+  background: linear-gradient(to right, #838b92, #1A64AE);
+  padding: 1rem 1rem;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: none; }
+  .wrapper-valores button {
+    position: absolute;
+    top: -2%;
+    left: 92%;
+    color: white;
+    font-size: 40px;
+    background: none;
+    border: none;
+    cursor: pointer; }
+  .wrapper-valores img {
+    width: 245%; }
+  .wrapper-valores ul {
+    color: white;
+    line-height: 1.4;
+    position: relative;
+    margin: 4% 3%;
+    top: -539px;
+    left: -9%;
+    width: 84%; }
+    .wrapper-valores ul li {
+      z-index: 100;
+      list-style: none;
+      width: 110%; }
+  .wrapper-valores.show-modal {
+    display: block !important; }
+
+/*
+**********************************************************************
+            MOBILE/ HEADER COM LOGOTIPO E BOTÕES
+******************************************************************
+ */
+@media only screen and (max-width: 850px) {
+  header {
+    width: 100%;
+    margin: 0 0%;
+    height: 100px; }
+    header .header-logo img {
+      width: 70%;
+      max-width: 170px;
+      position: relative;
+      top: 37px;
+      left: 14px; }
+    header .header-buttons {
+      width: 50%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center; }
+      header .header-buttons button {
+        background: #1863AD;
+        width: 35%;
+        padding: .5rem .1rem;
+        font-size: 8px; }
+  /*
+**********************************************************************
+       MOBILE/  GESTORA DE PARTICIPAÇÕES PRIMEIRO BLOCO
+******************************************************************
+ */
+  main {
+    width: 100%;
+    margin: 0 0%; }
+    main div {
+      width: 90%;
+      height: 79px;
+      padding: 9px 18px;
+      position: relative;
+      top: 79%;
+      left: 5%;
+      box-sizing: border-box; }
+      main div h2 {
+        color: white;
+        font-family: arial;
+        margin: 0;
+        font-size: 15px; }
+      main div p {
+        font-size: 13px; }
+  /*
+**********************************************************************
+       MOBILE/  TERCIRO BLOCO SATIS CORPORATE
+******************************************************************
+ */
+  .about-us {
+    width: 100%;
+    margin: 0 0%; }
+    .about-us div {
+      padding: 12px;
+      width: 45%;
+      height: 90%;
+      float: right;
+      margin-right: 20px; }
+    .about-us p {
+      color: #2369B3;
+      font-family: arial;
+      font-size: 13px;
+      line-height: 1.3; }
+  /*
+**********************************************************************
+       MOBILE/  INTEMEZZO & PARCEIROS
+******************************************************************
+ */
+  .intermezzo {
+    width: 100%;
+    margin: 0 0%; }
+    .intermezzo h1 {
+      font-size: 26px; }
+  .partners {
+    width: 100%;
+    margin: 0 0%; }
+    .partners p {
+      font-size: 13px; }
+  /*
+**********************************************************************
+       MOBILE/  NOSSA VISÃO  NOSSA MISSÃO  NOSSOS VALORES
+******************************************************************
+ */
+  .overture-sale {
+    width: 100%;
+    margin: 0 0%;
+    height: 300px; }
+    .overture-sale div {
+      width: 30%; }
+      .overture-sale div img {
+        width: 90%;
+        margin-top: 30px; }
+      .overture-sale div h3 {
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgba(71, 71, 74, 0.5);
+        text-align: center;
+        font-size: 15px; }
+      .overture-sale div p {
+        display: none; }
+      .overture-sale div ul {
+        display: none; }
+  /*
+**********************************************************************
+       MOBILE/  FOOTER
+******************************************************************
+ */
+  footer {
+    display: block;
+    height: 100%;
+    width: 100%;
+    margin: 0 0%; }
+    footer div {
+      padding: 20px; }
+      footer div img {
+        width: 50%; }
+      footer div p {
+        color: #2369B3;
+        font-family: arial;
+        font-size: 16px;
+        line-height: 1.6;
+        color: white; }
+    footer .footer-right img {
+      width: 100%;
+      position: relative;
+      top: 37px; }
+    footer .footer-right h3 {
+      position: relative;
+      top: 0;
+      left: 0%;
+      color: white;
+      font-family: arial;
+      background: #3a73ad;
+      text-align: center;
+      padding: 5px;
+      font-size: 20px; }
+    footer .footer-left {
+      padding: 10px;
+      height: 230px; }
+      footer .footer-left img {
+        width: 100%;
+        margin: 0 0; }
+      footer .footer-left p {
+        width: 100%;
+        font-size: 12px; }
+  /*
+**********************************************************************
+       MOBILE/  MDDAIS
+******************************************************************
+ */
+  .wrapper-visao {
+    width: 300px;
+    height: 50%;
+    position: fixed;
+    top: 20%;
+    left: 25%;
+    background: linear-gradient(to right, #838b92, #1A64AE);
+    padding: 1rem 1rem;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: none; }
+    .wrapper-visao button {
+      position: absolute;
+      top: -2%;
+      left: 88%;
+      color: white;
+      font-size: 40px;
+      background: none;
+      border: none;
+      cursor: pointer; }
+    .wrapper-visao p {
+      color: white;
+      line-height: 1.4;
+      position: absolute;
+      margin: 4% 3%;
+      top: 5%;
+      left: 4%;
+      width: 84%;
+      font-size: 15px; }
+    .wrapper-visao.show-modal {
+      display: block !important; }
+  .wrapper-missao {
+    width: 300px;
+    height: 50%;
+    position: fixed;
+    top: 20%;
+    left: 25%;
+    background: linear-gradient(to right, #838b92, #1A64AE);
+    padding: 1rem 1rem;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: none; }
+    .wrapper-missao button {
+      position: absolute;
+      top: -2%;
+      left: 88%;
+      color: white;
+      font-size: 40px;
+      background: none;
+      border: none;
+      cursor: pointer; }
+    .wrapper-missao ul li {
+      color: white;
+      line-height: 1.4;
+      position: relative;
+      margin: 4% 3%;
+      top: -368px;
+      left: -15%;
+      width: 84%;
+      z-index: 100;
+      list-style: none;
+      width: 110%;
+      font-size: 15px; }
+    .wrapper-missao.show-modal {
+      display: block !important; }
+  .wrapper-valores {
+    width: 300px;
+    height: 50%;
+    position: fixed;
+    top: 20%;
+    left: 25%;
+    background: linear-gradient(to right, #838b92, #1A64AE);
+    padding: 1rem 1rem;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: none; }
+    .wrapper-valores button {
+      position: absolute;
+      top: -2%;
+      left: 88%;
+      color: white;
+      font-size: 40px;
+      background: none;
+      border: none;
+      cursor: pointer; }
+    .wrapper-valores ul li {
+      color: white;
+      line-height: 1.4;
+      position: relative;
+      margin: 4% 3%;
+      top: 194px;
+      left: -12%;
+      width: 84%;
+      z-index: 100;
+      list-style: none;
+      width: 110%;
+      font-size: 15px; }
+    .wrapper-valores.show-modal {
+      display: block !important; } }
+
+/*
+**********************************************************************
+       CELULAR/  MDDAIS
+******************************************************************
+ */
+@media only screen and (max-width: 450px) {
+  .wrapper-visao {
+    width: 300px;
+    height: 50%;
+    position: fixed;
+    top: 20%;
+    left: 5%;
+    background: linear-gradient(to right, #838b92, #1A64AE);
+    padding: 1rem 1rem;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: none; }
+  .wrapper-missao {
+    width: 300px;
+    height: 50%;
+    position: fixed;
+    top: 20%;
+    left: 5%;
+    background: linear-gradient(to right, #838b92, #1A64AE);
+    padding: 1rem 1rem;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: none; }
+  .wrapper-valores {
+    width: 300px;
+    height: 50%;
+    position: fixed;
+    top: 20%;
+    left: 5%;
+    background: linear-gradient(to right, #838b92, #1A64AE);
+    padding: 1rem 1rem;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: none; } }
